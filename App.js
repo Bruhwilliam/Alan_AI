@@ -3,15 +3,15 @@ import {useState, useEffect} from 'react';
 import './Background.css';
 import './Searchbar.css'
 
-const SearchBar = () => {
+const SearchBar = () => {            // Test test
   return(
  <div>
-   <input type = "text" value = "hi"/>
+   <input type = "text" value = "hi"/> //asdfsdaf
  </div>
 
 
   )
-}
+}          
 function App() {
 
   const[cart, setCart] = useState([])
